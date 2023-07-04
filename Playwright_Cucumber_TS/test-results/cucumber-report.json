@@ -1,0 +1,84 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "add-products-to-cart-which-is-mocked-byh-api;test-mock",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Test Mock",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1129360100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User mock \"book\" api with \"book\" data",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9997813399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "User mock \"categoryList\" api with \"categories\" data",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:44"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3050099
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "User navigates to the application",
+            "match": {
+              "location": "src\\test\\steps\\loginSteps.ts:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3538950500
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1380500199
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Test",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "add-products-to-cart-which-is-mocked-byh-api",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Add products to cart which is mocked byh api",
+    "tags": [],
+    "uri": "src\\test\\features\\testMock.feature"
+  }
+]

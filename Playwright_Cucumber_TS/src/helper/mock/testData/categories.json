@@ -1,0 +1,10 @@
+[
+    {
+        "categoryId": 1,
+        "categoryName": "Biography"
+    },
+    {
+        "categoryId": 2,
+        "categoryName": "Fiction"
+    }
+]

@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "sourceMap": true,
+        "resolveJsonModule": true,
+        "allowJs":false,
+        "paths":{
+           "*": ["./node_modules/*"] 
+        },
+        "outDir": "./dist"
+    },
+    "include":["src"]
+}
